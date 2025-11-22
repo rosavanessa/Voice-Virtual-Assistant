@@ -50,3 +50,12 @@ def print_interrupted_response(original, corrected):
 
 def print_user_transcript(transcript):
   print(f"User: {transcript}")
+
+
+conversation = Conversation(
+  client,
+  AGENT_ID,
+  config=config,
+  requires_auth=True,
+
+
